@@ -1,0 +1,17 @@
+{
+    "name": "hugocampos/phpunit-bootstrap",
+    "description": "A bootstrap to get PHPUnit up and running",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hugo Campos",
+            "email": "hugofcampos@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}
